@@ -1,25 +1,19 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useEffect } from 'react';
+// import { JwtDecode } from '../util/jwtUtil/JwtDecode';
+import { Www } from './www';
+import "./languages/translate/I18Next"
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+const App = () => {
+
+    useEffect(() => {
+
+    }, [])
+
+    return (
+        <div>
+            <Www />
+        </div>
+    )
 }
 
 export default App;
